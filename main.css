@@ -1,0 +1,104 @@
+body {
+    background: #FFF;
+    font-family: 'Source Sans Pro', 'Segoe UI', sans-serif;
+    font-size: 1.2em;
+    color: #333333;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+}
+
+li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #4A96AD;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    color: #535353;
+    font-size: 4em;
+    margin: 0em;
+}
+
+.date, .topics {
+    font-size: 75%;
+}
+
+.date{
+    white-space: nowrap;
+}
+
+::selection {
+    background: #FDF4B6;
+    color: #424242;
+}
+
+.section {
+    /*border: 1px solid black;*/
+    padding-left: 0.5em;
+}
+
+div > p {
+    padding-left: 0.5em;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 2px 8px;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/* Structural CSS */
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    max-width: 17em;
+}
+
+.left-column {
+    float: left;
+    margin-left: 2em;
+    width: 55%;
+    display: inline-block;
+}
+
+.right-column {
+    float: right;
+    margin-right: 2em;
+    width: 35%;
+    display: inline-block;
+}
+
+/* Media Queries */
+
+@media (max-width: 820px) {
+    .left-column, .right-column {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0em;
+    }
+}
